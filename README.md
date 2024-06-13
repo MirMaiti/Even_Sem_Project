@@ -1,2 +1,3 @@
 # Even_Sem_Project
-Contains code for the Snake-Game AI developed using NEAT and Q-Learning.
+This is an AI that plays the snake game! 
+Developed using both NEAT and Q-Learning.
