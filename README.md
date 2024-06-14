@@ -25,7 +25,7 @@ This project demonstrates two different approaches to creating an AI for the cla
    ![alt text](Images/gen_score_v2.png "Logo Title Text 1")
 3) This runs the best neural network again and displays those games. To adjust the frame rate, uncomment : `clock.tick(50)` in `test_winner(winner,n)`
 
-    ![alt text]Images/winner_stats.png "Logo Title Text 1")
+    ![alt text](Images/winner_stats.png "Logo Title Text 1")
 4) Lastly a plot is made showing the score and mean score of the winner AI across the number of games it played again.
  
 # Fitness Function
