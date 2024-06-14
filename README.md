@@ -32,10 +32,6 @@ Check the `NEAT-Snake_Game` folder for all required files.
    ![winner_stats](https://github.com/MirMaiti/Even_Sem_Project/assets/85605728/53dc21a3-fb7f-48c0-b4b5-c8f4b8bc9f49)
 
 5) Lastly a plot is made showing the score and mean score of the winner AI across the number of games it played again.
-
-   Blue : Score
-   
-   Orange : Average Score
  
 # Fitness Function
     SnakeLength
