@@ -18,6 +18,13 @@ This project demonstrates two different approaches to creating an AI for the cla
 ## Run the code
     python snake_neat.py
 
+### While running the code you will see two different displays of the snake game.
+1) This is showing the training process, upto 120 generations. To adjust the frame rate, uncomment : `clock.tick(50)` in `run_game(genomes,config)`
+2) 
+3) This runs the best neural network again and displays those games. To adjust the frame rate, uncomment : `clock.tick(50)` in `test_winner(winner,n)`
+   
+4) Lastly a plot is made showing the score and mean score of the winner AI across the number of games it played again.
+ 
 # Fitness Function
     SnakeLength
   SnakeLength = Number of fruits it ate
