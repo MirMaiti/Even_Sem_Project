@@ -65,5 +65,5 @@ Check the `NEAT-Snake_Game` folder all required files.
 
 `2`: Keep forward
 
-## The winning model is stored as ```winner.pkl```
+## The winning model is stored as a pickle file ```winner.pkl```
 
