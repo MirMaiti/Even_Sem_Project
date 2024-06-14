@@ -144,4 +144,13 @@ These values are combined into a single NumPy array of integers, with each eleme
 ## The model with the greatest score is saved as a pytorch file : `model.pth`
 
 ## Training statistics of the AI as it learns:
-   ![alt text]( "Logo Title Text 1")
+   ![alt text](Q-Learning_SnakeGame/Q_stats.png "Logo Title Text 1")
+
+## The Snake AI at around 1300 iterations
+
+
+
+https://github.com/MirMaiti/Even_Sem_Project/assets/85605728/b2962975-e25e-4395-86f8-d7950b83dab9
+
+
+
