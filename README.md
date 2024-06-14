@@ -111,3 +111,25 @@ To decrease frame rate, uncomment : `clock.tick(50)` in the `def move(self,actio
 `agent_v2.py`
 
 - You will see 2 screens, one running the snake game and the other shows a plot of the AI's performance as it is trained after each game.
+### `get_state` Function Return Value
+
+The `get_state` function returns a NumPy array representing the current state of the snake game. The state consists of several boolean values indicating the presence of danger, the direction of the snake's movement, and the relative position of the food. The state is structured as follows:
+
+1. **Danger Detection**:
+   - `danger_f` (boolean): True if there is a danger (such as a wall or the snake's own body) in front of the snake.
+   - `danger_r` (boolean): True if there is a danger to the right of the snake.
+   - `danger_l` (boolean): True if there is a danger to the left of the snake.
+
+2. **Movement Direction**:
+   - `dir_l` (boolean): True if the snake is currently moving left.
+   - `dir_r` (boolean): True if the snake is currently moving right.
+   - `dir_u` (boolean): True if the snake is currently moving up.
+   - `dir_d` (boolean): True if the snake is currently moving down.
+
+3. **Food Location Relative to the Snake's Head**:
+   - `food_left` (boolean): True if the food is to the left of the snake's head.
+   - `food_right` (boolean): True if the food is to the right of the snake's head.
+   - `food_up` (boolean): True if the food is above the snake's head.
+   - `food_down` (boolean): True if the food is below the snake's head.
+
+These values are combined into a single NumPy array of integers, with each element representing a specific aspect of the game state.
