@@ -8,6 +8,7 @@ This project demonstrates two different approaches to creating an AI for the cla
 
 # Snake - NEAT
 ## How to run
+
 ### Install dependancies
     pip install -r requirements.txt
 ### Other files required
@@ -16,7 +17,7 @@ This project demonstrates two different approaches to creating an AI for the cla
 #### config-feedforward.txt
 - This is used by neat-python library to configure parameters for the NEAT algorithm. Contains various sections for setting up the neural network, evolution process and more.
 ## Run the code
-    python snake_neat.py
+    python snake_v2.py
 
 ### While running the code you will see two different displays of the snake game.
 1) This is showing the training process, upto 120 generations. To adjust the frame rate, uncomment : `clock.tick(50)` in `run_game(genomes,config)`
