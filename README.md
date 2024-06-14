@@ -40,6 +40,12 @@ This project demonstrates two different approaches to creating an AI for the cla
 
   6. `dist[2]`: Distance to the nearest obstacle (wall or body) to the right.
 
+# Vision outputs
+`0` : Turn left
+
+`1` : Turn right
+
+`2`: Keep forward
 
 
 
