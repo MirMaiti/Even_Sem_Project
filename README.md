@@ -142,3 +142,6 @@ These values are combined into a single NumPy array of integers, with each eleme
 `2`: Keep forward
 
 ## The model with the greatest score is saved as a pytorch file : `model.pth`
+
+## Training statistics of the AI as it learns:
+   ![alt text]( "Logo Title Text 1")
