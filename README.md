@@ -27,6 +27,10 @@ This project demonstrates two different approaches to creating an AI for the cla
 
     ![alt text](Images/winner_stats.png "Logo Title Text 1")
 4) Lastly a plot is made showing the score and mean score of the winner AI across the number of games it played again.
+
+   Blue : Score
+   
+   Orange : Average Score
  
 # Fitness Function
     SnakeLength
