@@ -67,6 +67,12 @@ Check the `NEAT-Snake_Game` folder for all required files.
 `2`: Keep forward
 
 ## The winning model is stored as a pickle file ```winner.pkl```
+# Winner AI using NEAT:
+
+
+https://github.com/MirMaiti/Even_Sem_Project/assets/85605728/55e572c1-de70-46aa-b7f8-14083cf8effd
+
+
 
 # Snake- Q Learning
 ## How to Run
