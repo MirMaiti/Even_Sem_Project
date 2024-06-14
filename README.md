@@ -133,3 +133,12 @@ The `get_state` function returns a NumPy array representing the current state of
    - `food_down` (boolean): True if the food is below the snake's head.
 
 These values are combined into a single NumPy array of integers, with each element representing a specific aspect of the game state.
+
+### Vision outputs
+`0` : Turn left
+
+`1` : Turn right
+
+`2`: Keep forward
+
+## The model with the greatest score is saved as a pytorch file : `model.pth`
