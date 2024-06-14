@@ -29,8 +29,9 @@ Check the `NEAT-Snake_Game` folder for all required files.
    ![alt text](Images/gen_score_v2.png "Logo Title Text 1")
 3) This runs the best neural network again and displays those games. To adjust the frame rate, uncomment : `clock.tick(50)` in `test_winner(winner,n)`
 
-    ![alt text](Images/winner_stats.png "Logo Title Text 1")
-4) Lastly a plot is made showing the score and mean score of the winner AI across the number of games it played again.
+   ![winner_stats](https://github.com/MirMaiti/Even_Sem_Project/assets/85605728/53dc21a3-fb7f-48c0-b4b5-c8f4b8bc9f49)
+
+5) Lastly a plot is made showing the score and mean score of the winner AI across the number of games it played again.
 
    Blue : Score
    
@@ -144,7 +145,9 @@ These values are combined into a single NumPy array of integers, with each eleme
 ## The model with the greatest score is saved as a pytorch file : `model.pth`
 
 ## Training statistics of the AI as it learns:
-   ![alt text](Q-Learning_SnakeGame/Q_stats.png "Logo Title Text 1")
+
+![Q_stats1](https://github.com/MirMaiti/Even_Sem_Project/assets/85605728/901fa08b-e431-47e2-a587-0980e9e9983a)
+
 
 ## The Snake AI at around 1300 iterations
 
