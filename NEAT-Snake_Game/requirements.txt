@@ -1,0 +1,6 @@
+# requirements.txt
+
+pygame==2.5.2
+neat-python==0.92
+matplotlib==3.9.0
+numpy==1.26
