@@ -9,6 +9,8 @@ This project demonstrates two different approaches to creating an AI for the cla
 # Snake - NEAT
 ## How to run
 
+Check the `NEAT-Snake_Game` folder all required files.
+
 ### Install dependancies
     pip install -r requirements.txt
 ### Other files required
