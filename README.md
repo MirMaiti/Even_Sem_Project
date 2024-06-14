@@ -161,5 +161,8 @@ These values are combined into a single NumPy array of integers, with each eleme
 
 https://github.com/MirMaiti/Even_Sem_Project/assets/85605728/b2962975-e25e-4395-86f8-d7950b83dab9
 
-
+# Conclusion
+This project shows the strengths and weaknesses of both NEAT and Q-Learning
+- NEAT evolves both the weights and structures of neural networks, potentially leading to more innovative and efficient network topologies. This results in quicker adaptation and discovery of optimal strategies as shown by a higher score on average.
+- Q Learning on the other hand provides a structured and methodical approach to learning optimal strategies through reinforcement learning. However it requires careful tuning of hyperparameters such as learning rate and discount factor. The training process can be slower and requires a substantial amount of data to achieve high performance. So its perfomance is weaker when comapared to the NEAT algorithm.
 
