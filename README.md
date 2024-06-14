@@ -61,8 +61,5 @@ This project demonstrates two different approaches to creating an AI for the cla
 
 `2`: Keep forward
 
-
-
-
-
+## The winning model is stored as ```winner.pkl```
 
