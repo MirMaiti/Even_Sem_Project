@@ -10,9 +10,9 @@ For both projects, I have used `Python 3.12.1` , although similar versions shoul
 # Snake - NEAT
 ## How to run
 
-Check the `NEAT-Snake_Game` folder all required files.
+Check the `NEAT-Snake_Game` folder for all required files.
 
-### Install dependancies
+### Install dependencies
     pip install -r requirements.txt
 ### Other files required
 #### helper.py
@@ -67,3 +67,47 @@ Check the `NEAT-Snake_Game` folder all required files.
 
 ## The winning model is stored as a pickle file ```winner.pkl```
 
+# Snake- Q Learning
+## How to Run
+Check the `Q-Learning_SnakeGame` folder for all required files
+
+### Install dependencies
+        pip install -r requirements.txt
+
+#### helper.py
+- Used to plot Score and Mean Score of the AI while it is training.
+### model.py
+- Defines 2 classes `Linear_QNet` and `QTrainer` for training a Deep Q Learning Network.
+### `Linear_QNet`
+- **Purpose**: Implements a simple feedforward neural network with one hidden layer.
+- **Constructor Parameters**:
+  - `input_size` (int): The number of input features.
+  - `hidden_size` (int): The number of neurons in the hidden layer.
+  - `output_size` (int): The number of output features.
+- **Methods**:
+  - `forward(x)`: Defines the forward pass of the network, applying ReLU activation to the hidden layer and producing the output.
+  - `save(file_name='model.pth')`: Saves the model's state dictionary to a specified file path.
+
+### `QTrainer`
+- **Purpose**: Manages the training process for the Q-network, handling the optimization and loss calculation.
+- **Constructor Parameters**:
+  - `model` (Linear_QNet): The neural network model to be trained.
+  - `lr` (float): Learning rate for the optimizer.
+  - `gamma` (float): Discount factor for future rewards.
+- **Methods**:
+  - `train_step(state, action, reward, next_state, done)`: Performs a single training step, updating the Q-values based on the given batch of state transitions. This method:
+    - Converts inputs to tensors.
+    - Predicts Q-values for the current state.
+    - Calculates target Q-values using the Bellman equation.
+    - Computes the loss and performs backpropagation to update the model weights.
+
+### snake_game_RL_v2.py
+Contains the structure of the snake game and displays each game using pygame.
+
+To decrease frame rate, uncomment : `clock.tick(50)` in the `def move(self,action)` method in the Snake Class.
+- It gives +10 reward for eating fruit, -10 reward for dying and 0 reward for moving one step with nothing happening.
+  
+## Run the file
+`agent_v2.py`
+
+- You will see 2 screens, one running the snake game and the other shows a plot of the AI's performance as it is trained after each game.
