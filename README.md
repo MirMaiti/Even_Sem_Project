@@ -2,9 +2,10 @@
 
 ## Description
 This project demonstrates two different approaches to creating an AI for the classic Snake game:
-1. **NEAT Python**: NeuroEvolution of Augmenting Topologies, a genetic algorithm for evolving neural networks.
+1. **NEAT**: NeuroEvolution of Augmenting Topologies, a genetic algorithm for evolving neural networks.
 2. **Q-Learning**: A model-free reinforcement learning algorithm.
 
+For both projects, I have used `Python 3.12.1` , although similar versions should work
 
 # Snake - NEAT
 ## How to run
