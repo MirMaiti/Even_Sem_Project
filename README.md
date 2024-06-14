@@ -22,7 +22,7 @@ This project demonstrates two different approaches to creating an AI for the cla
 1) This is showing the training process, upto 120 generations. To adjust the frame rate, uncomment : `clock.tick(50)` in `run_game(genomes,config)`
 2) A plot shows the score vs no. of generations
 
-   ![alt text](gen_score.png "Logo Title Text 1")
+   ![alt text](Images/gen_score_v2.png "Logo Title Text 1")
 3) This runs the best neural network again and displays those games. To adjust the frame rate, uncomment : `clock.tick(50)` in `test_winner(winner,n)`
 
     ![alt text](gen_score.png "Logo Title Text 1")
